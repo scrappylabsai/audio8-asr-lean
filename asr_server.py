@@ -19,6 +19,7 @@ from __future__ import annotations
 import argparse
 import asyncio
 import base64
+import io
 import json
 import logging
 import threading
@@ -330,6 +331,45 @@ async def realtime(request: web.Request) -> web.WebSocketResponse:
     return ws
 
 
+async def transcriptions(request: web.Request) -> web.Response:
+    """OpenAI-compatible batch endpoint (what faster-whisper STT servers expose): multipart `file`
+    (any format soundfile reads) -> {"text": ...}.  Runs as a stream whose audio is all present,
+    sharing the engine rows with realtime callers."""
+    import soundfile as sf
+    import soxr
+    eng_t: EngineThread = request.app["engine"]
+    form = await request.post()
+    f = form.get("file")
+    if f is None or not hasattr(f, "file"):
+        return web.json_response({"error": {"message": "multipart field 'file' is required"}}, status=400)
+    try:
+        wav, sr = sf.read(io.BytesIO(f.file.read()), dtype="float32", always_2d=True)
+    except Exception:  # noqa: BLE001
+        return web.json_response({"error": {"message": "could not decode audio"}}, status=400)
+    wav = wav.mean(axis=1)
+    if sr != 16000:
+        wav = soxr.resample(wav, sr, 16000)
+    s = Session(None, asyncio.get_running_loop())
+    lang = str(form.get("language") or "en")
+    s.lang = lang if lang in eng_t.lang_ids else "en"
+    s.validated = True
+    with s.lock:
+        s.start_stream()
+        pad = (s.delay_tokens + 1 + RIGHT_PAD_TEXT) * SAMPLES_PER_TOKEN
+        s.buf = np.concatenate([s.buf, np.clip(wav, -1, 1).astype(np.float32), np.zeros(pad, dtype=np.float32)])
+        s.final = True
+        s.started = True
+    eng_t.add(s)
+    eng_t.wake.set()
+    try:
+        while True:
+            ev = await s.out.get()
+            if ev["type"] == "transcription.done":
+                return web.json_response({"text": ev["text"].strip()})
+    finally:
+        eng_t.remove(s)
+
+
 async def health(request):
     e: EngineThread = request.app["engine"]
     return web.json_response({"status": "ok", "model": MODEL_ID, "capacity": e.eng.B, "trim_mode": e.eng.trim_mode,
@@ -383,6 +423,7 @@ def main():
     app.router.add_get("/health", health)
     app.router.add_get("/v1/models", models)
     app.router.add_get("/v1/realtime", realtime)
+    app.router.add_post("/v1/audio/transcriptions", transcriptions)
     web.run_app(app, host=a.host, port=a.port, print=None)
 
 

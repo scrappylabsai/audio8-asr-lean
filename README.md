@@ -71,6 +71,11 @@ pip install -r requirements.txt
 python asr_server.py --quant int4hqq --capacity 4            # ws://127.0.0.1:18192/v1/realtime
 ```
 
+It also answers `POST /v1/audio/transcriptions` (OpenAI-style multipart `file` → `{"text": ...}`), so tools that
+call a Whisper-compatible server can point at it. Each request is decoded as a stream sharing the same batch rows.
+That costs latency: an utterance is stepped through at about 6× real time, so a 3 s clip takes around 0.6 s where an
+offline Whisper model takes about 0.06 s. Streaming over `/v1/realtime` is where this model pays off.
+
 The server speaks the upstream `/v1/realtime` protocol (`session.update`, `input_audio_buffer.append` /
 `commit`), so the upstream web client and `vllm_realtime_client` work unchanged. It emits `transcription.delta`,
 `semantic_vad.delta`, `metrics.delta` and `transcription.done`. Weights download from the Hub on first run
