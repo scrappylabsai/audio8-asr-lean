@@ -1,0 +1,15 @@
+# Model code, feature extractor and the realtime client come from the upstream repo (Apache-2.0).
+audio8-asr-infinite @ git+https://github.com/Edge0-AI/Audio8-ASR-Infinite@c8ba8ee
+transformers==5.13.0
+torchao==0.18.0          # int4 profile (tinygemm layout)
+safetensors
+huggingface_hub
+numpy
+soundfile
+librosa
+soxr
+aiohttp                  # asr_server.py
+websockets               # upstream realtime client (rt_bench.py / rt_multi.py)
+jiwer
+whisper-normalizer
+# torch: install the CUDA build for your GPU first (tested: 2.14.0+cu130 on RTX 5090 Laptop / sm_120).

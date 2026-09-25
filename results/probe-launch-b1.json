@@ -1,0 +1,59 @@
+{
+ "batch": 1,
+ "steps": 141,
+ "audio_s": 10.38,
+ "wall_ms_per_step": 33.14,
+ "gpu_kernel_ms_per_step": 16.64,
+ "gpu_busy_pct": 50.2,
+ "kernel_launches_per_step": 3267.6,
+ "top_kernels_ms_per_step": [
+  [
+   "std::enable_if<!(false), void>::type internal::gemvx::kernel<int, int, __nv_bflo",
+   5.519
+  ],
+  [
+   "std::enable_if<!(false), void>::type internal::gemvx::kernel<int, int, __nv_bflo",
+   2.383
+  ],
+  [
+   "void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_16x16_128x1",
+   2.236
+  ],
+  [
+   "void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_16x16_128x2",
+   1.341
+  ],
+  [
+   "void at::native::(anonymous namespace)::CatArrayBatchedCopy<at::native::(anonymo",
+   0.779
+  ],
+  [
+   "fmha_cutlassF_bf16_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel",
+   0.706
+  ],
+  [
+   "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<a",
+   0.572
+  ],
+  [
+   "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<a",
+   0.353
+  ],
+  [
+   "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda",
+   0.28
+  ],
+  [
+   "void pytorch_flash::flash_fwd_kernel<Flash_fwd_kernel_traits<128, 128, 64, 4, fa",
+   0.196
+  ],
+  [
+   "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<a",
+   0.19
+  ],
+  [
+   "void at::native::reduce_kernel<128, 4, at::native::ReduceOp<float, at::native::M",
+   0.179
+  ]
+ ]
+}

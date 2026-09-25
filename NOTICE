@@ -1,0 +1,9 @@
+audio8-asr-lean
+Copyright 2026 ScrappyLabs
+
+This project builds on Audio8 ASR Infinite by Edge0 (https://github.com/Edge0-AI/Audio8-ASR-Infinite,
+https://huggingface.co/Edge0/Audio8-ASR-Infinite), licensed under the Apache License 2.0. The model weights,
+the audio feature extractor, the projector, the reference streaming decoder and the realtime client used by the
+benchmarks come from that project and are imported, not copied, except where noted in the source.
+
+Benchmark audio: LibriSpeech (Panayotov et al., openslr.org/12), CC BY 4.0.

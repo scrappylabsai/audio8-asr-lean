@@ -1,0 +1,59 @@
+{
+ "batch": 8,
+ "steps": 159,
+ "audio_s": 10.71,
+ "wall_ms_per_step": 34.87,
+ "gpu_kernel_ms_per_step": 22.77,
+ "gpu_busy_pct": 65.3,
+ "kernel_launches_per_step": 3522.9,
+ "top_kernels_ms_per_step": [
+  [
+   "void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_16x16_128x2",
+   8.528
+  ],
+  [
+   "void at::native::(anonymous namespace)::CatArrayBatchedCopy<at::native::(anonymo",
+   3.733
+  ],
+  [
+   "void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_128x2",
+   2.205
+  ],
+  [
+   "fmha_cutlassF_bf16_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel",
+   1.626
+  ],
+  [
+   "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x64_32x6_t",
+   0.955
+  ],
+  [
+   "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<a",
+   0.788
+  ],
+  [
+   "void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_16x16_128x1",
+   0.566
+  ],
+  [
+   "void at::native::reduce_kernel<128, 4, at::native::ReduceOp<float, at::native::M",
+   0.361
+  ],
+  [
+   "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<a",
+   0.339
+  ],
+  [
+   "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda",
+   0.295
+  ],
+  [
+   "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<a",
+   0.254
+  ],
+  [
+   "void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::M",
+   0.227
+  ]
+ ]
+}

@@ -1,0 +1,1525 @@
+{
+ "tag": "phone",
+ "corpus": "LibriSpeech-phone",
+ "split": "test-other",
+ "n": 300,
+ "pool": 2930,
+ "seed": 0,
+ "batch": 8,
+ "delay_ms": 480,
+ "dtype": "bfloat16",
+ "wer_pct": 8.928,
+ "audio_s": 1866.2,
+ "decode_s": 87.84,
+ "rtf": 0.0471,
+ "lm_forward_calls": 3592,
+ "ms_per_step_batch": 24.45,
+ "peak_alloc_gib": 9.42,
+ "weights_gib": 7.72,
+ "quant": "none",
+ "load_s": 1.2,
+ "gpu": "NVIDIA GeForce RTX 5090 Laptop GPU",
+ "torch": "2.14.0+cu130",
+ "utts": [
+  {
+   "id": "3528-168669-0029",
+   "ref": "it was mother crucifixion",
+   "hyp": "it was mother crucifixion"
+  },
+  {
+   "id": "4294-9934-0016",
+   "ref": "that will be enough",
+   "hyp": "that will be enough"
+  },
+  {
+   "id": "3764-168670-0034",
+   "ref": "who spreads the pall over it",
+   "hyp": "who spreads the pool over it"
+  },
+  {
+   "id": "367-130732-0010",
+   "ref": "king of shell fish",
+   "hyp": "king of shellfish"
+  },
+  {
+   "id": "533-131556-0016",
+   "ref": "suppose i do",
+   "hyp": "suppose i do"
+  },
+  {
+   "id": "8188-269290-0042",
+   "ref": "am i my brother is keeper",
+   "hyp": "am i my brother is keeper"
+  },
+  {
+   "id": "533-131564-0000",
+   "ref": "vain hope i fear",
+   "hyp": "then hope i fear"
+  },
+  {
+   "id": "3764-168671-0018",
+   "ref": "he played with father mestienne",
+   "hyp": "he played with father mestian"
+  },
+  {
+   "id": "7902-96591-0000",
+   "ref": "i am from the cutter lying off the coast",
+   "hyp": "i am from the cutter lying off the coast"
+  },
+  {
+   "id": "3005-163390-0003",
+   "ref": "the duke says yes",
+   "hyp": "the duke says yes"
+  },
+  {
+   "id": "4198-12259-0024",
+   "ref": "here page fill",
+   "hyp": "here paige phil"
+  },
+  {
+   "id": "6432-63723-0005",
+   "ref": "well i do not know that you can",
+   "hyp": "well i do not know that you can"
+  },
+  {
+   "id": "1998-29454-0014",
+   "ref": "i shall catch it a fair treat as it is",
+   "hyp": "as you catch it a fair treat as it is"
+  },
+  {
+   "id": "3997-180294-0032",
+   "ref": "because you do not like seeing him",
+   "hyp": "because you do not like seeing him"
+  },
+  {
+   "id": "4350-10919-0017",
+   "ref": "and then the mother wishes it he added",
+   "hyp": "and then the mother wishes it he added"
+  },
+  {
+   "id": "6432-63723-0013",
+   "ref": "because larch made no defense",
+   "hyp": "because larch made no defense"
+  },
+  {
+   "id": "367-130732-0006",
+   "ref": "lobster a la newberg",
+   "hyp": "lobster owen newberg"
+  },
+  {
+   "id": "8188-269290-0007",
+   "ref": "i want to be alone go",
+   "hyp": "i want to be alert go"
+  },
+  {
+   "id": "5764-299665-0067",
+   "ref": "we must have corner stones",
+   "hyp": "we must have corned the stones"
+  },
+  {
+   "id": "4852-28330-0000",
+   "ref": "they went down to their quarters 1st",
+   "hyp": "they went down to their quarters 1st"
+  },
+  {
+   "id": "4350-9170-0044",
+   "ref": "and for the sake of what am i making them",
+   "hyp": "and for the sake of what am i making them"
+  },
+  {
+   "id": "3997-182399-0000",
+   "ref": "ol mistah buzzard grinned",
+   "hyp": "old mister buzzard grinned"
+  },
+  {
+   "id": "8131-117016-0050",
+   "ref": "ever see a martian election",
+   "hyp": "ever see a martian election"
+  },
+  {
+   "id": "3997-180297-0007",
+   "ref": "is that really the only reason",
+   "hyp": "is that really the only reason"
+  },
+  {
+   "id": "7105-2330-0021",
+   "ref": "poll opens in 5 minutes",
+   "hyp": "paul opens in 5 minutes"
+  },
+  {
+   "id": "5764-299665-0084",
+   "ref": "why have the reformers failed",
+   "hyp": "why have the reformers saved"
+  },
+  {
+   "id": "3764-168671-0051",
+   "ref": "here a remark becomes necessary",
+   "hyp": "here a remark becomes necessary"
+  },
+  {
+   "id": "5764-299665-0068",
+   "ref": "the structure must have a basement",
+   "hyp": "the structure must have a basement"
+  },
+  {
+   "id": "5442-41168-0006",
+   "ref": "votes please beastly",
+   "hyp": "vote please beasley"
+  },
+  {
+   "id": "3528-168669-0019",
+   "ref": "fauvent we have confidence in you",
+   "hyp": "for that we have confidence in you"
+  },
+  {
+   "id": "3528-168669-0056",
+   "ref": "for that matter no reverend mother",
+   "hyp": "for that matter no reverend mother"
+  },
+  {
+   "id": "3764-168670-0030",
+   "ref": "have you the keys to those 2 doors",
+   "hyp": "have ye the keys to those 2 doors"
+  },
+  {
+   "id": "2414-128292-0012",
+   "ref": "thou art not pleasing unto me",
+   "hyp": "thou art not pleasing into me"
+  },
+  {
+   "id": "4350-10919-0019",
+   "ref": "0 time is up already and he went to the door",
+   "hyp": "0 time is up already and he went to the door"
+  },
+  {
+   "id": "8131-117016-0008",
+   "ref": "the pressure was enough to get them for him",
+   "hyp": "the pressure was enough to get them for him"
+  },
+  {
+   "id": "4852-28311-0026",
+   "ref": "a sudden car horn woke him from his dream",
+   "hyp": "a sudden car horn walking from the stream"
+  },
+  {
+   "id": "6432-63722-0044",
+   "ref": "singa phut was the panting answer",
+   "hyp": "shunga foot was the panting answer"
+  },
+  {
+   "id": "7975-280063-0011",
+   "ref": "about 930 a m i was shot down",
+   "hyp": "about 9 30 a m i was shot down"
+  },
+  {
+   "id": "2609-156975-0020",
+   "ref": "from about 2000 b c",
+   "hyp": "from about 2000 bc"
+  },
+  {
+   "id": "7902-96592-0018",
+   "ref": "i saw you last night and wondered whose boy you was",
+   "hyp": "i saw you last night and wondered whose boy he was"
+  },
+  {
+   "id": "4198-12259-0005",
+   "ref": "which was 1st thirst or drinking",
+   "hyp": "which was 1st though it is the drinking"
+  },
+  {
+   "id": "8131-117016-0044",
+   "ref": "but the stonewall gang is backing wayne",
+   "hyp": "but the stonewall gang is backing wayne"
+  },
+  {
+   "id": "1998-29454-0010",
+   "ref": "not exackly said the man but it is all right",
+   "hyp": "not exactly said the man but it is all right"
+  },
+  {
+   "id": "6432-63722-0013",
+   "ref": "it is just one of them coincidences like",
+   "hyp": "it is just one of them coincidences like"
+  },
+  {
+   "id": "6432-63722-0039",
+   "ref": "asked the surprised detective yes",
+   "hyp": "as to the surprise detective yes"
+  },
+  {
+   "id": "4198-12259-0036",
+   "ref": "white wine here wine boys",
+   "hyp": "white wine here wine boys"
+  },
+  {
+   "id": "2414-128292-0021",
+   "ref": "a haven towards which my sail is set",
+   "hyp": "a heavy towards which my sale is set"
+  },
+  {
+   "id": "7975-280063-0008",
+   "ref": "they did mark my clothes in one or 2 places however",
+   "hyp": "they did mark mark close and one or 2 places however"
+  },
+  {
+   "id": "7902-96591-0021",
+   "ref": "a narrow table against the wall in 2 places",
+   "hyp": "a narrow table against the wall in 2 places"
+  },
+  {
+   "id": "3528-168669-0026",
+   "ref": "no did you not hear the bell",
+   "hyp": "no did you not hear the bell"
+  },
+  {
+   "id": "5442-41169-0017",
+   "ref": "but one is work is thrown in for nothing",
+   "hyp": "but one is work is thrown in for nothing"
+  },
+  {
+   "id": "8280-266249-0055",
+   "ref": "what can it have been they asked each other",
+   "hyp": "what can it have been they asked each other"
+  },
+  {
+   "id": "533-131564-0009",
+   "ref": "0 no i could not stand that",
+   "hyp": "0 no echelyn stand that"
+  },
+  {
+   "id": "5764-299665-0042",
+   "ref": "man judges himself",
+   "hyp": "mum judges seem to have"
+  },
+  {
+   "id": "8131-117016-0038",
+   "ref": "trouble began brewing shortly after though",
+   "hyp": "trouble began brewing shortly after though"
+  },
+  {
+   "id": "3528-168669-0127",
+   "ref": "the vil stuck fast in his throat",
+   "hyp": "the veal stuck fast in his throat"
+  },
+  {
+   "id": "1998-29455-0013",
+   "ref": "that is all right said mister beale awkwardly",
+   "hyp": "that is all right said mister beale awkwardly"
+  },
+  {
+   "id": "7018-75789-0025",
+   "ref": "the 7th voyage of sindbad the seaman",
+   "hyp": "a 7th voyage of sinbad the seaman"
+  },
+  {
+   "id": "3005-163389-0016",
+   "ref": "and the horse a going like a house afire too",
+   "hyp": "and a horse are going like a house of fire too"
+  },
+  {
+   "id": "4294-9934-0005",
+   "ref": "the half lights of doubt pained him",
+   "hyp": "the half lights of doubt pained him"
+  },
+  {
+   "id": "6070-86744-0017",
+   "ref": "upon my honor then listen to me",
+   "hyp": "upon my honor then listen to me"
+  },
+  {
+   "id": "3997-180294-0031",
+   "ref": "you still love me can you ask",
+   "hyp": "you still love me can you ask"
+  },
+  {
+   "id": "3997-180294-0005",
+   "ref": "now go i can not keep my eyes open",
+   "hyp": "now go i can not keep my eyes open"
+  },
+  {
+   "id": "6432-63722-0028",
+   "ref": "and the watch have you it yes it is here",
+   "hyp": "and the watch have you it yes it is here"
+  },
+  {
+   "id": "8188-269290-0019",
+   "ref": "0 i will not press you replied jane",
+   "hyp": "0 i will not press you replied jane"
+  },
+  {
+   "id": "3764-168671-0041",
+   "ref": "stammered fauchelevent it is made",
+   "hyp": "stammered fochelavant it is made"
+  },
+  {
+   "id": "1998-29455-0022",
+   "ref": "remember that neither of them knew any better",
+   "hyp": "remember that neither of them knew any better"
+  },
+  {
+   "id": "3528-168669-0044",
+   "ref": "she retained her consciousness to the very last moment",
+   "hyp": "she retained her consciousness to the very last moment"
+  },
+  {
+   "id": "5442-41168-0024",
+   "ref": "and the marshal disappeared through a side door",
+   "hyp": "and the marshal disappeared through a side door"
+  },
+  {
+   "id": "6432-63722-0034",
+   "ref": "if you do not mind i should like to examine this a bit",
+   "hyp": "if you do not mind i should like to examine this a bit"
+  },
+  {
+   "id": "3528-168669-0125",
+   "ref": "it will be given to the earth empty",
+   "hyp": "it will be given to the earth empty"
+  },
+  {
+   "id": "2609-156975-0018",
+   "ref": "naturally he went to the land of midian",
+   "hyp": "natri he went to the land of midian"
+  },
+  {
+   "id": "4350-10919-0014",
+   "ref": "what is wanted is means of improving nutrition and not for lowering it",
+   "hyp": "what is wanted is the means of improving nutrition and not for lowering it"
+  },
+  {
+   "id": "4852-28312-0019",
+   "ref": "then in that 2nd he turned and faced about",
+   "hyp": "then in that 2nd he turned and faced about"
+  },
+  {
+   "id": "8280-266249-0005",
+   "ref": "beside ourselves added cousin ronald laughing",
+   "hyp": "besides ourselves i had a cousin ronald laughing"
+  },
+  {
+   "id": "7018-75788-0009",
+   "ref": "when it was the 550 ninth night",
+   "hyp": "when it was the 559th night"
+  },
+  {
+   "id": "7902-96592-0042",
+   "ref": "it was your turn yesterday it is mine to day what a game",
+   "hyp": "it was your turn yesterday it is mine today what a game"
+  },
+  {
+   "id": "7902-96591-0005",
+   "ref": "he could not help it he hates the smugglers you shall not tell",
+   "hyp": "he could not help it he hates the smugglers you shall not tell"
+  },
+  {
+   "id": "4294-9934-0019",
+   "ref": "it is badly paid work but one can live by it",
+   "hyp": "it is badly paid work but one can live by it"
+  },
+  {
+   "id": "4198-12259-0009",
+   "ref": "he drinks in vain that feels not the pleasure of it",
+   "hyp": "he drinks in vain that feels not the pleasure of it"
+  },
+  {
+   "id": "4852-28319-0020",
+   "ref": "the afternoon rainy before increased in storm",
+   "hyp": "the afternoon rainy before increased in storm"
+  },
+  {
+   "id": "2609-169640-0022",
+   "ref": "they were like the yells of fiends in anguish",
+   "hyp": "they were night the years of fiends in english"
+  },
+  {
+   "id": "4350-9170-0051",
+   "ref": "this argument too was well founded only some centuries ago",
+   "hyp": "this argument too was well founded only some centuries ago"
+  },
+  {
+   "id": "3005-163391-0026",
+   "ref": "then one of them says kind of soft and gentle",
+   "hyp": "then one of them says kind of soft and gentle"
+  },
+  {
+   "id": "533-131556-0001",
+   "ref": "for none could injure me as he has done 0",
+   "hyp": "fernand could injure me as he has done 0"
+  },
+  {
+   "id": "7105-2340-0027",
+   "ref": "the snatcher had been an orphan these many years",
+   "hyp": "this snatcher had been an orphan these many years"
+  },
+  {
+   "id": "4350-9170-0008",
+   "ref": "the army has always been and still is the basis of power",
+   "hyp": "the army has always been and still is the basis of power"
+  },
+  {
+   "id": "8188-269288-0055",
+   "ref": "annie is that you she called out",
+   "hyp": "any is that you she called out"
+  },
+  {
+   "id": "1688-142285-0020",
+   "ref": "improvident and self indulgent were his words",
+   "hyp": "in providence and self indulgent were his words"
+  },
+  {
+   "id": "4294-32859-0002",
+   "ref": "the story of fridolin and retzch is pretty outlines",
+   "hyp": "the story of friedelind and wretched is pretty outlines"
+  },
+  {
+   "id": "5764-299665-0064",
+   "ref": "can we cure disease by supplication",
+   "hyp": "can we cure disease by supplication"
+  },
+  {
+   "id": "6128-63240-0018",
+   "ref": "are you very ambitious you look as if you were",
+   "hyp": "are you very ambitious you look as if you were"
+  },
+  {
+   "id": "6070-86744-0029",
+   "ref": "and now my dear franz let us talk of something else",
+   "hyp": "and now my dear franz let us talk of something else"
+  },
+  {
+   "id": "7902-96594-0029",
+   "ref": "pipe away the men to that boat there he said and as the crew sprang in",
+   "hyp": "piper wears them into that boat there he said and as the crew sprang in"
+  },
+  {
+   "id": "6432-63722-0050",
+   "ref": "but i want to know just where we stand now i know",
+   "hyp": "but i want to know just where we stand now i know"
+  },
+  {
+   "id": "5764-299665-0003",
+   "ref": "why did he create the intellectually inferior",
+   "hyp": "why did he create the intellectually inferior"
+  },
+  {
+   "id": "1998-29455-0009",
+   "ref": "how beautiful said dickie wriggling with delight",
+   "hyp": "how beautiful said dicky wriggling with delight"
+  },
+  {
+   "id": "8461-281231-0014",
+   "ref": "tell me thy name or work thy pleasure on me",
+   "hyp": "tell me thy name or work thy pleasure on me"
+  },
+  {
+   "id": "3528-168669-0069",
+   "ref": "she asked it of us that is to say commanded us",
+   "hyp": "she asked it of us that is to say commanded us"
+  },
+  {
+   "id": "3764-168671-0023",
+   "ref": "the grave digger yes",
+   "hyp": "the grave digger yes"
+  },
+  {
+   "id": "3005-163399-0022",
+   "ref": "uneasy she says i am ready to go distracted",
+   "hyp": "on easy she says i am ready to go distracted"
+  },
+  {
+   "id": "5764-299665-0094",
+   "ref": "this is the solution of the whole question",
+   "hyp": "this is the solution of the whole question"
+  },
+  {
+   "id": "7902-96592-0024",
+   "ref": "been playing the spy that is what you have been doing who locked you in",
+   "hyp": "been playing the spy that is what you have been doing who locked you in"
+  },
+  {
+   "id": "6432-63722-0014",
+   "ref": "busted his head in with a heavy candlestick one of a pair",
+   "hyp": "busted his head in with a heavy candlestick one of a pair"
+  },
+  {
+   "id": "3764-168670-0057",
+   "ref": "that is settled father fauchelevent all will go well",
+   "hyp": "that is settled father fochelavon all will go well"
+  },
+  {
+   "id": "7105-2340-0017",
+   "ref": "of course some of them can be changed",
+   "hyp": "of course some of them can be changed"
+  },
+  {
+   "id": "1998-29455-0036",
+   "ref": "dickie was full of questions but mister beale had no answers for them",
+   "hyp": "dicky was full of questions but mister beale had no answers for them"
+  },
+  {
+   "id": "1998-29455-0015",
+   "ref": "poor little man said the lady you miss your mother do not you",
+   "hyp": "poor little man said the lady you miss your mother do not you"
+  },
+  {
+   "id": "6432-63723-0011",
+   "ref": "he remembered that cynthia and grafton had once been in love with each other",
+   "hyp": "he remembered that cynthia and grafton had once been in love with each other"
+  },
+  {
+   "id": "4294-9934-0024",
+   "ref": "the landlord presented his bill which had to be paid on the spot",
+   "hyp": "the landlord presented his bill which had to be paid on the spot"
+  },
+  {
+   "id": "6432-63722-0020",
+   "ref": "now i am afraid i will not but how did it happen",
+   "hyp": "now i am afraid i will not but how did it happen"
+  },
+  {
+   "id": "6432-63723-0049",
+   "ref": "i said where have you been remarked the other we have missed you",
+   "hyp": "i said where have you been remarked the other we have missed you"
+  },
+  {
+   "id": "1998-29454-0006",
+   "ref": "he looked about him and knew that he did not at all know where he was",
+   "hyp": "he looked about him and knew that he did not at all know where he was"
+  },
+  {
+   "id": "3528-168669-0043",
+   "ref": "father fauvent the community has been blessed in mother crucifixion",
+   "hyp": "father fauvent the community has been blessed in mother crucifixion"
+  },
+  {
+   "id": "1688-142285-0038",
+   "ref": "better and not better if yo know what that means",
+   "hyp": "better and not better if you know what that means"
+  },
+  {
+   "id": "5484-24317-0003",
+   "ref": "so the artist found himself obliged to relinquish his opposition",
+   "hyp": "so the artist found himself obliged to relinquish his opposition"
+  },
+  {
+   "id": "4350-9170-0030",
+   "ref": "this increase is contagious as montesquieu pointed out 150 years ago",
+   "hyp": "this increase is contagious as montesquieu pointed out a 150 years ago"
+  },
+  {
+   "id": "3005-163390-0008",
+   "ref": "you bet it is the jedge is right everybody sings out",
+   "hyp": "you bet it is the judge is right everybody sings out"
+  },
+  {
+   "id": "3528-168669-0073",
+   "ref": "what a glory of god for the community and miracles issue from tombs",
+   "hyp": "what a glory of god for the community and miracles issue from tombs"
+  },
+  {
+   "id": "4198-61336-0020",
+   "ref": "in the following year tiglath pileser returned to syria",
+   "hyp": "in the following year take the last pleaser return to syria"
+  },
+  {
+   "id": "2609-157645-0012",
+   "ref": "david deans however did not at all approve this irreverence",
+   "hyp": "david dean sanford did not at all improve this irreverence"
+  },
+  {
+   "id": "4852-28312-0028",
+   "ref": "the post was planted at the edge of what was now a broad and muddy road",
+   "hyp": "the post was blended at the edge of what was now a broad and money road"
+  },
+  {
+   "id": "367-130732-0001",
+   "ref": "when is a lobster not a lobster when it is a crayfish",
+   "hyp": "when is a lobster not a lobster when it is a crayfish"
+  },
+  {
+   "id": "7902-96594-0005",
+   "ref": "awkward bit 0 country sir 6 miles row before you can find a place to land",
+   "hyp": "awkward bit of country sir 6 miles row before you can find a place to land"
+  },
+  {
+   "id": "8188-269288-0010",
+   "ref": "i must pass in honors if i do not i shall die",
+   "hyp": "i must pass on us if i do not i shall die"
+  },
+  {
+   "id": "6070-63485-0017",
+   "ref": "he had forgotten the address of the self styled fan painter",
+   "hyp": "he had forgotten the address of the self styled pan painter"
+  },
+  {
+   "id": "3080-5040-0021",
+   "ref": "you are satisfied i hope ere this that i scaped drowning",
+   "hyp": "you are satisfied i hope as is that i escape drowning"
+  },
+  {
+   "id": "8461-258277-0007",
+   "ref": "then he set out rejoicing to return to the barrack of the 40",
+   "hyp": "then he said that rejoicing to return to the barrack of the 40"
+  },
+  {
+   "id": "5764-299665-0082",
+   "ref": "we know the footsteps of advance they have been traced",
+   "hyp": "we know the footsteps of advance they have been traced"
+  },
+  {
+   "id": "2609-156975-0000",
+   "ref": "then moses was afraid and said surely the thing is known",
+   "hyp": "in the mositz was afraid and said surely the thing is known"
+  },
+  {
+   "id": "6938-70848-0009",
+   "ref": "we know what the peasants will say are not they workingmen like ourselves",
+   "hyp": "we know what the peasants will say are not they working man like ourselves"
+  },
+  {
+   "id": "2414-128291-0025",
+   "ref": "for they are thy warmest friends and preceptors",
+   "hyp": "for they are thy warmest friends and perceptors"
+  },
+  {
+   "id": "3764-168670-0026",
+   "ref": "this offers the means but give me some information in the 1st place",
+   "hyp": "this offers the means give me some information in the 1st place"
+  },
+  {
+   "id": "7902-96595-0019",
+   "ref": "a lad looking like a common sailor and wearing a red cap no said sir risdon",
+   "hyp": "aladdin looking like a common sailor and wearing a red cap no said sir rizdon"
+  },
+  {
+   "id": "6938-70848-0010",
+   "ref": "these men especially welcomed the call to a congress of peasants",
+   "hyp": "this man has specially welcomed the call to a congress of peasants"
+  },
+  {
+   "id": "2609-156975-0027",
+   "ref": "note the characteristic oriental idea of marriage",
+   "hyp": "note the care of risk orient to idea of marriage"
+  },
+  {
+   "id": "3764-168671-0050",
+   "ref": "returned fauchelevent clutching at this branch feeble as it was",
+   "hyp": "return for chalavon clutching at this branch sable as it was"
+  },
+  {
+   "id": "7902-96592-0045",
+   "ref": "ram showed his white teeth as he burst out with a long low fit of laughter",
+   "hyp": "ram showed his white teeth as he burst out with a long low fit of laughter"
+  },
+  {
+   "id": "2609-157645-0010",
+   "ref": "then let them sing the 119th replied the curate",
+   "hyp": "then that is saying the 119th repar the cure"
+  },
+  {
+   "id": "6070-63485-0010",
+   "ref": "cried the schoolmaster a 1000 francs and i will kill him",
+   "hyp": "cried the school master a 1000 francs and i will kill him"
+  },
+  {
+   "id": "533-1066-0020",
+   "ref": "it was alex armed with 2 long handled spades",
+   "hyp": "it was alex armed with 2 long handled spades"
+  },
+  {
+   "id": "3764-168670-0018",
+   "ref": "and then that there was another the empty coffin",
+   "hyp": "and then that there was another the empty coffin"
+  },
+  {
+   "id": "3528-168656-0004",
+   "ref": "it was a century which spoke through her but it was the 18th century",
+   "hyp": "it was a century which spoke through her but it was the 18th century"
+  },
+  {
+   "id": "4198-12259-0037",
+   "ref": "0 lachryma christi it is of the best grape",
+   "hyp": "0 lakrima christie it is of the best grape"
+  },
+  {
+   "id": "6432-63722-0058",
+   "ref": "no alimony repeated the colonel puzzled yes just that",
+   "hyp": "no alimony replied the colonel puzzled yes just that"
+  },
+  {
+   "id": "1998-29455-0028",
+   "ref": "blessed if i ever see such a nipper he said over and over again",
+   "hyp": "blessed if i ever see such a nigger he said over and over again"
+  },
+  {
+   "id": "8131-117016-0057",
+   "ref": "but you got earth ideas of the stuff like i had once",
+   "hyp": "but you got earth ideas of the stuff like i had once"
+  },
+  {
+   "id": "6938-70848-0007",
+   "ref": "you call yourselves the people of russia but you are not the people of russia",
+   "hyp": "you call yourself the people of russia but you are not the people of russia"
+  },
+  {
+   "id": "5442-41168-0023",
+   "ref": "if there are men younger and more deserving than i let them serve",
+   "hyp": "if there is a man younger and more deserving than i let them serve"
+  },
+  {
+   "id": "8188-269288-0020",
+   "ref": "well read it in peace said leslie i will not disturb you",
+   "hyp": "well read it in peace said lazily i will not disturb you"
+  },
+  {
+   "id": "8280-266249-0013",
+   "ref": "with all my heart if you will step into the gentlemen is cabin where there is a light",
+   "hyp": "with all my heart if you will step into the gentleman is cabin where there is a light"
+  },
+  {
+   "id": "8461-278226-0010",
+   "ref": "i should so like one to hang in my morning room at jocelyn is rock",
+   "hyp": "i should so like one to hang in my morning room at jocelyn is rock"
+  },
+  {
+   "id": "3538-163624-0025",
+   "ref": "for her husband she said had ridden through the flame when no other man dared face it",
+   "hyp": "for her husband she said had ridden through the flame when no other man dared face it"
+  },
+  {
+   "id": "5764-299665-0085",
+   "ref": "they depend on the lord on luck and charity",
+   "hyp": "they depend on the lot on luck and charity"
+  },
+  {
+   "id": "3538-163619-0000",
+   "ref": "there was once on a time a widower who had a son and a daughter by his 1st wife",
+   "hyp": "there was once in the time a widower who had a son and a daughter by his 1st wife"
+  },
+  {
+   "id": "4350-10919-0002",
+   "ref": "the princess was distracted and did not know what to do she felt she had sinned against kitty",
+   "hyp": "the princess would distracted and did not know what to do she felt she had sent against kitty"
+  },
+  {
+   "id": "7902-96595-0010",
+   "ref": "do not know as he has been seen about here do you said gurr looking at her searchingly no sir",
+   "hyp": "do not know as he has been seen about here do you said gara looking at her searchingly no sir"
+  },
+  {
+   "id": "3997-180297-0004",
+   "ref": "my dear prudence i answered you do not know what you are saying",
+   "hyp": "my dear prudence i answered he do not know what you are saying"
+  },
+  {
+   "id": "6432-63723-0041",
+   "ref": "good evening colonel he called genially will you join me in a welsh rabbit",
+   "hyp": "good evening colonel he called genially will you join me in a welsh rabbit"
+  },
+  {
+   "id": "5484-24318-0018",
+   "ref": "in spite of his deep mental distress he could have shouted aloud in his delight and gratitude",
+   "hyp": "in spite of his deep mental distress he could have shouted aloud in his delight and gratitude"
+  },
+  {
+   "id": "3538-163624-0008",
+   "ref": "so regin made a sword and sigurd tried it with a blow on a lump of iron and the sword broke",
+   "hyp": "so regan made a sword and sigurd tried it with a blow on a lump of iron and the sword broke"
+  },
+  {
+   "id": "1688-142285-0003",
+   "ref": "i really liked that account of himself better than anything else he said",
+   "hyp": "i really like that account of himself better than anything else he said"
+  },
+  {
+   "id": "3538-163622-0004",
+   "ref": "he had gone out once to seek a place he said but never would he do such a thing again",
+   "hyp": "he had gone at once to seek a place he said but never would he do such a thing again"
+  },
+  {
+   "id": "533-1066-0012",
+   "ref": "they were talking confidentially together but when i came down they ceased",
+   "hyp": "do a talking confidentially together but when i came down they ceased"
+  },
+  {
+   "id": "6070-86744-0020",
+   "ref": "but said franz the corsican bandits that were among the crew of his vessel",
+   "hyp": "but said france the caucasian bandits that were among the crew of his vessel"
+  },
+  {
+   "id": "7105-2340-0011",
+   "ref": "the talk flitted nervously and hurriedly from one impersonal topic to another",
+   "hyp": "the tax slitted nervously and hurriedly from one impersonal topic to another"
+  },
+  {
+   "id": "4294-9934-0001",
+   "ref": "he had but just acquired a faith must he then reject it already",
+   "hyp": "he had but just acquired a faith must he then reject it all ready"
+  },
+  {
+   "id": "4350-10919-0004",
+   "ref": "is there hope she meant to say but her lips quivered and she could not utter the question well doctor",
+   "hyp": "is there hope she meant to say but her lips quivered and she could not utter the question well doctor"
+  },
+  {
+   "id": "3528-168669-0031",
+   "ref": "the mothers have taken her to the dead room which opens on the church i know",
+   "hyp": "the mothers have taken her to the dead room which opens on the church i know"
+  },
+  {
+   "id": "7975-280076-0025",
+   "ref": "about the last of december 1873 i arrived in carroll parish louisiana",
+   "hyp": "about the last of december 1873 i arrived in carroll parish louisiana"
+  },
+  {
+   "id": "4852-28330-0007",
+   "ref": "certainly my boy boomed out the captain his blue eyes abruptly keen and penetrating",
+   "hyp": "certainly my boy boomed out the captain as blue eyes abruptly keen and penetrating"
+  },
+  {
+   "id": "7902-96594-0020",
+   "ref": "then what did you mean speak out and do not do the double shuffle all over my clean deck no sir",
+   "hyp": "then what did you mean speak out and do not do the double shuffle all over my clean deck no sir"
+  },
+  {
+   "id": "8131-117016-0037",
+   "ref": "if he should turn up dead i will know you boys are responsible and i will find you",
+   "hyp": "if he should turn up dead i will know you boys are responsible and i will find you"
+  },
+  {
+   "id": "8131-117016-0058",
+   "ref": "the groups grew more experienced and murdoch was training a new squad every night",
+   "hyp": "the groups grew more experienced and murdoch was training a new squad every night"
+  },
+  {
+   "id": "5764-299665-0026",
+   "ref": "man advances and necessarily advances through experience",
+   "hyp": "man advances and necessarily advances through experience"
+  },
+  {
+   "id": "6128-63240-0026",
+   "ref": "i shall be back very late we are going to a theater party that is why we dine so early",
+   "hyp": "i shall be back very late we are going to be suitable party that is why we dine so early"
+  },
+  {
+   "id": "3764-168670-0050",
+   "ref": "but jean valjean is coolness prevailed over him in spite of himself he grumbled",
+   "hyp": "but jean valjean is coolness prevailed over him in spite of himself he grumbled"
+  },
+  {
+   "id": "3538-163622-0015",
+   "ref": "when they had gone thus for a long long way the foal again asked dost thou see anything now",
+   "hyp": "when they had gone thus for a long long way the full again ass dost thou see anything now"
+  },
+  {
+   "id": "8188-269288-0043",
+   "ref": "now drink this at once she said in a voice of authority if you really wish to sleep",
+   "hyp": "now drink this at once she said in a voice of authority if you really wish to sleep"
+  },
+  {
+   "id": "533-1066-0003",
+   "ref": "fortunately warner and the detectives were keeping bachelor hall in the lodge",
+   "hyp": "fortunately one of the detectives were keeping bachelor holland is lodge"
+  },
+  {
+   "id": "1688-142285-0072",
+   "ref": "margaret held her in her arms and put the weary head to rest upon her bosom",
+   "hyp": "margaret held her in her arms and put the weary head to rest upon her bosom"
+  },
+  {
+   "id": "1688-142285-0081",
+   "ref": "everybody else has had their turn at this great difficulty now let me try",
+   "hyp": "everybody else has had their turn at this great difficulty now let me try"
+  },
+  {
+   "id": "3538-163622-0005",
+   "ref": "then the king promised him the same punishment and the same reward that he had promised his brother",
+   "hyp": "the nation promised him the same punishment and the same reward that he had promised his brother"
+  },
+  {
+   "id": "8461-281231-0027",
+   "ref": "so saying he mounted his strong war horse and rode off through the forest",
+   "hyp": "so saying he mounted his strong war horse and rode off through the forest"
+  },
+  {
+   "id": "6070-86745-0010",
+   "ref": "yes he has not much to complain of bourges is the capital of charles 7",
+   "hyp": "yes he has not much to complain of bourgh is the capital of charles the 7th"
+  },
+  {
+   "id": "7018-75788-0002",
+   "ref": "hearing this i was sore troubled remembering what i had before suffered from the ape kind",
+   "hyp": "hearing this i was sore troubled remembering what i had before suffered from the ape kind"
+  },
+  {
+   "id": "8188-269288-0035",
+   "ref": "she did not take the least notice of leslie but going into the room shut the door",
+   "hyp": "she did not take the least notice of leslie but going into the room shut the door"
+  },
+  {
+   "id": "4198-12259-0022",
+   "ref": "a little rain allays a great deal of wind long tippling breaks the thunder",
+   "hyp": "a little rain allays a great deal of wind long tippling breaks the thunder"
+  },
+  {
+   "id": "367-293981-0006",
+   "ref": "it cannot be the moor answered don quixote for those under enchantment do not let themselves be seen by anyone",
+   "hyp": "it cannot be the more answered donkey hode for those under enchantment do not let themselves be seen by anyone"
+  },
+  {
+   "id": "3538-163622-0002",
+   "ref": "hast thou watched faithfully and well the whole day long said the king when the lad came into his presence in the evening",
+   "hyp": "has so watched faithfully and well the whole day long said the king when the lad came into his presence in the evening"
+  },
+  {
+   "id": "4852-28312-0022",
+   "ref": "it was no longer there nor were the high walls and smokestacks of factories to be seen",
+   "hyp": "it was no longer there nor were the high walls and smoke stacks of factories to be seen"
+  },
+  {
+   "id": "4350-9170-0059",
+   "ref": "so much for the advantages and disadvantages of both lines of conduct for a man of the wealthy classes an oppressor",
+   "hyp": "so much for the advantages and disadvantages of both lines of conduct for a man of the wealthy class and a presser"
+  },
+  {
+   "id": "4294-35475-0024",
+   "ref": "among those who drew back were ethelried is brothers the 3 that were dark and the 3 that were fair",
+   "hyp": "among those who drew back were ethelred is brothers the 3 that were dark and the 3 that were fair"
+  },
+  {
+   "id": "6432-63723-0000",
+   "ref": "chuckled the colonel as he skilfully played the luckless trout now struggling to get loose from the hook",
+   "hyp": "checkled the colonel as he skillfully played the luckless trout now struggling to get loose from the hook"
+  },
+  {
+   "id": "3528-168656-0010",
+   "ref": "when the poor old woman died they rushed to her cupboard more hastily than was fitting perhaps and opened it",
+   "hyp": "who in the quarreled woman died they rushed to her cupboard more hastily than was fitting perhaps and opened it"
+  },
+  {
+   "id": "3764-168670-0035",
+   "ref": "not another man except the police doctor can enter the dead room that is even written on the wall",
+   "hyp": "not another man except the police doctor can enter the dead room that is even written on the wall"
+  },
+  {
+   "id": "3538-163624-0026",
+   "ref": "not long to wait he said till the bitter sword stands fast in my heart and thou will not live long when i am dead",
+   "hyp": "not long to wait he said till the bitter sword stands fast in my heart and thou will not live long when i am dead"
+  },
+  {
+   "id": "533-131556-0017",
+   "ref": "she paused in evident disconcertion and perplexity mingled with anger she dared not show",
+   "hyp": "she paused in evident disconcertion and perplexity mingled with anger she dare not show"
+  },
+  {
+   "id": "3331-159609-0022",
+   "ref": "polly was not at all like herself that winter and those nearest to her saw and wondered at it most",
+   "hyp": "polly was not at all like herself but the window and those nearest to her saw and wondered at it most"
+  },
+  {
+   "id": "7105-2340-0037",
+   "ref": "brave little woman said peter with a gasp of relief i could never have done it",
+   "hyp": "brave little woman sad bitter with a gasp of relief i could never have done it"
+  },
+  {
+   "id": "3528-168669-0113",
+   "ref": "if you were ever to have any other jobs of this sort my brother is the strong man for you a perfect turk",
+   "hyp": "if you were ever to have any other jobs of this sort my brother is the strong man for you a perfect turk"
+  },
+  {
+   "id": "3331-159609-0005",
+   "ref": "no i m only tired had a good deal to do lately and the dull weather makes me just a trifle blue",
+   "hyp": "now i am only tired had a good deal to do lately and the dull weather makes me just a traveler true"
+  },
+  {
+   "id": "5442-41168-0001",
+   "ref": "he went up to the table and striking it with his finger ring he shouted loudly a ballot",
+   "hyp": "he went up to the table and striking it with a finger ring he shouted loudly a ballad"
+  },
+  {
+   "id": "8280-266249-0049",
+   "ref": "then mister lilburn waking from his 1st sleep in a stateroom near by thought he would break it up once more",
+   "hyp": "then mister lilleburn waking from his 1st sleep in a stateroom nearby thought he would break it up once more"
+  },
+  {
+   "id": "4852-28312-0024",
+   "ref": "flabbergasted and breathless chris was unaware that he had moved closer to peer out the window in every direction",
+   "hyp": "flabberg asked it in breathless chris was unaware that he had moved closer to peer out the window in every direction"
+  },
+  {
+   "id": "8280-266249-0030",
+   "ref": "they are gambling yonder and i am afraid that young fellow is being badly fleeced by that middle aged man opposite",
+   "hyp": "they are gambling yonder and i am afraid that young fellow is seeing badly fleeced by the middle aged man opposite"
+  },
+  {
+   "id": "1688-142285-0087",
+   "ref": "missus thornton the only mother he has i believe said mister hale quietly",
+   "hyp": "mister thornton the only mother he has i believe said mister hale quietly"
+  },
+  {
+   "id": "3080-5040-0012",
+   "ref": "i told you in my last that my suffolk journey was laid aside and that into kent hastened",
+   "hyp": "i told you in my last that my suffolk journey was led aside and that intercant hastened"
+  },
+  {
+   "id": "4350-9170-0018",
+   "ref": "internal dissensions disappear only in proportion to the degree of oppression exerted by the authority over the dissentient individuals",
+   "hyp": "internal dissension disappear only in proportion to the degree of oppression exerted by the authority over the dissentient individuals"
+  },
+  {
+   "id": "3331-159605-0043",
+   "ref": "he meant to go away before that so do not think his heart is broken or mind what silly tattlers say",
+   "hyp": "he meant to go away before that so do not think his heart is broken or mind what silly tetla say"
+  },
+  {
+   "id": "4350-9170-0047",
+   "ref": "we know now that threats and punishments cannot diminish their number that that can only be done by change of environment and moral influence",
+   "hyp": "we now know that threats and punishments cannot diminish their number that that can only be done by change of environment and moral influence"
+  },
+  {
+   "id": "533-131562-0013",
+   "ref": "not in money matters exactly it seems but it is best to keep out of the way of temptation",
+   "hyp": "not in many matters exactly it seems but it is best to keep out of the way of temptation"
+  },
+  {
+   "id": "3764-168671-0008",
+   "ref": "to be buried in pere lachaise is equivalent to having furniture of mahogany it is recognized as elegant",
+   "hyp": "to be buried in perchlaches is equivalent to having furniture of mahogany it is recognized as elegant"
+  },
+  {
+   "id": "5484-24318-0009",
+   "ref": "the power which delivered him over to death just at that moment was not nemesis no it was a kindly deity",
+   "hyp": "the power which delivered him over to death just at that moment was not nemesis no it was a kindly deity"
+  },
+  {
+   "id": "5484-24318-0011",
+   "ref": "again he heard the beloved voice and this time it addressed not only him but with the utmost haste the commander of the soldiers",
+   "hyp": "again he heard the beloved voice and this time it addressed not only him but with the utmost haste the commander of the soldiers"
+  },
+  {
+   "id": "6432-63723-0008",
+   "ref": "you do not mean that larch struck her that there was physical abuse do you asked the colonel that is what he did",
+   "hyp": "you do not mean that larch struck her that there was physical abuse do you asked the colonel that is what he did"
+  },
+  {
+   "id": "4198-12281-0011",
+   "ref": "believe that it was the most horrible spectacle that ever one saw",
+   "hyp": "believe that it was the most horrible spectacle that ever one saw"
+  },
+  {
+   "id": "6070-86745-0003",
+   "ref": "wait then during the day tell rosa that when i leave the opera i will sup with her as she wishes",
+   "hyp": "wait then during the day tell rosa that when i leave the opera i will sup with her as she wishes"
+  },
+  {
+   "id": "1998-29455-0019",
+   "ref": "you stick to that said beale radiant with delight you are a fair masterpiece you are you earned it honest if ever a kid done",
+   "hyp": "you stick to that said pierre radiant with delight you are a fair masterpiece you are you earned it honest if ever a kid done"
+  },
+  {
+   "id": "3997-180294-0028",
+   "ref": "what is the matter with you to night said marguerite rising and coming to the back of the box and kissing me on the forehead",
+   "hyp": "what is the matter with you tonight said marguerite rising and coming to the back of the box and kissing me on the forehead"
+  },
+  {
+   "id": "4852-28319-0005",
+   "ref": "how you have improved my boy he exclaimed it is now time for you to try and this is as good a change as any",
+   "hyp": "how you have improved my boy it exclaimed it is now a time for you to try and this is as good a change as any"
+  },
+  {
+   "id": "3331-159609-0006",
+   "ref": "forgive me polly but i can not help saying it for it is there and i want to be as true to you as you were to me if i can",
+   "hyp": "forgive me polly but i can not help saying it for it is there and i want to be as true to you as you were to me if i can"
+  },
+  {
+   "id": "3997-180294-0029",
+   "ref": "you should go to bed she replied with that ironical air which went so well with her delicate and witty face",
+   "hyp": "you should go to bed she replied with that ironic air which went so well with her delicate and witty face"
+  },
+  {
+   "id": "6070-63485-0005",
+   "ref": "no said the old brute grumblingly no not one ring what a shame",
+   "hyp": "no said the old brute drumblingly no not one ring what a shame"
+  },
+  {
+   "id": "8461-278226-0004",
+   "ref": "i remember all the rubenses at the louver for i saw them 3 years ago when i was staying in paris with grandpapa",
+   "hyp": "i remember all the ruben says that the louver for i saw them for years ago when i was staying in paris with grandpa pa"
+  },
+  {
+   "id": "3764-168671-0046",
+   "ref": "fortunately the soil which was light and wet with the winter rains clogged the wheels and retarded its speed",
+   "hyp": "fortunately the soil which was light and wet with the winter rains clogged the wheels and retarded its speed"
+  },
+  {
+   "id": "7975-280084-0005",
+   "ref": "and i called to him to get inside at the same time firing a pistol shot in the air as a signal to the 3 boys at the bridge that we had been discovered",
+   "hyp": "and i call to him to get inside at the same time firing a pistol shot in the air as a signal to the 3 boys at the bridge that we had been discovered"
+  },
+  {
+   "id": "2609-156975-0017",
+   "ref": "is peonage always disastrous not only to its victims but also to the government imposing it",
+   "hyp": "his pinage always disastrous not only to its victims but also to the government imposing it"
+  },
+  {
+   "id": "8280-266249-0045",
+   "ref": "the german released his prisoner and the latter slunk away with muttered threats and imprecations upon the head of his tormentor",
+   "hyp": "the german releases prisoner and the latter slunk away with muttered threats and imprecations upon the head of his tormentor"
+  },
+  {
+   "id": "533-131556-0002",
+   "ref": "the word stares me in the face like a guilty confession but it is true i hate him i hate him",
+   "hyp": "the word turns me in the face like a guilty confession but it is true i hate him i hate him"
+  },
+  {
+   "id": "1998-29455-0017",
+   "ref": "the 2 travelers were left facing each other the richer by a penny and 0 wonderful good fortune a whole half crown",
+   "hyp": "the 2 travelers were left facing each other the richer by a penny and 0 wonderful good fortune a whole half crown"
+  },
+  {
+   "id": "7975-280085-0011",
+   "ref": "forming in line 4 paces apart he ordered them to advance rapidly and concentrate the fire of the whole line the instant the robbers were discovered",
+   "hyp": "forming in line 4 paces apart he ordered them to advance rapidly and concentrate the fire of the whole line the instant the robbers were discovered"
+  },
+  {
+   "id": "6070-86745-0013",
+   "ref": "peste i will do nothing of the kind the moment they come from government you would find them execrable",
+   "hyp": "tests i will do nothing of the kind the moment they come from government you would find them execrable"
+  },
+  {
+   "id": "5484-24317-0004",
+   "ref": "the banquet was to begin in a few hours yet he could not let the day pass without seeing daphne and telling her the words of the oracle",
+   "hyp": "the banquet was to begin in a few hours yet he could not let the day pass without seeing daphne and telling her the words of the oracle"
+  },
+  {
+   "id": "7902-96595-0018",
+   "ref": "gurr saluted and stated his business while the baronet who had turned sallower and more careworn than his lot drew a breath full of relief one of your ship boys he said",
+   "hyp": "gir saluted and stated his business while the baronet who had turned salower and more care more than his lot drew a breath of full of relief one of your ship boys he said"
+  },
+  {
+   "id": "1688-142285-0017",
+   "ref": "when he spoke of the mechanical powers he evidently looked upon them only as new ways of extending trade and making money",
+   "hyp": "when he spoke of the mechanical powers he evidently looked upon them only as new ways of extending trade and making money"
+  },
+  {
+   "id": "2609-156975-0032",
+   "ref": "the title of his father in law implies that this priest ministered at some wilderness sanctuary",
+   "hyp": "the title of his fund in the law implies that this priest ministered at some wilderness sanctuary"
+  },
+  {
+   "id": "2414-128291-0001",
+   "ref": "he asked himself something warm and living quickeneth me it must be in the neighborhood",
+   "hyp": "he asked himself something warm and living quicken it me it must be in the neighborhood"
+  },
+  {
+   "id": "3528-168669-0057",
+   "ref": "father fauvent mother crucifixion will be interred in the coffin in which she has slept for the last 20 years that is just",
+   "hyp": "father prevent mother crucifixion will be interred in the coffin in which she has slept for the last 20 years that is just"
+  },
+  {
+   "id": "5764-299665-0057",
+   "ref": "in other words it was just as fiendish just as infamous as the catholic spirit",
+   "hyp": "in other words it was just as fiendish just as infamous as the catholic spirit"
+  },
+  {
+   "id": "2609-169640-0024",
+   "ref": "in this state the ship passed ahead all her canvas being full leaving the proa motionless in her wake",
+   "hyp": "this state the shipwrecks ahead offer a canvas spin for leaving the prowler motionless in her wake"
+  },
+  {
+   "id": "3538-163619-0004",
+   "ref": "when the king entered and saw it he stood still as if he were in fetters and could not stir from the spot for the picture seemed to him so beautiful",
+   "hyp": "when the king entered and sought he stood still as if he were in fetters and could not stir from the spot for the picture seemed to him so beautiful"
+  },
+  {
+   "id": "7975-280057-0016",
+   "ref": "i have always felt that the exposure to which she was subjected on this cruel journey too hard even for a man to take was the direct because of her death",
+   "hyp": "i have always felt that the exposure to which she was subjected on this cruel journey too hard even for a man to take was a direct because of her death"
+  },
+  {
+   "id": "6128-63244-0005",
+   "ref": "all sorts of inferior people lived there and so brilliant a woman as missus farrinder who lived at roxbury ought not to mix things up",
+   "hyp": "all sorts of inferior people this day and so brilliant a woman as missus sominder who lived at broxbury or not to mix things up"
+  },
+  {
+   "id": "5484-24317-0030",
+   "ref": "only even though love has wholly disappeared she still claims consideration and althea did not wish to lose hermon is regard",
+   "hyp": "only even though love has wholly disappeared she still claims consideration and althea did not wish to lose hermann is regard"
+  },
+  {
+   "id": "3080-5040-0015",
+   "ref": "because you find fault with my other letters this is like to be shorter than they i did not intend it so though i can assure you",
+   "hyp": "because you find fault with my other letters this is like to be shorter than they i did not intend it so though i can assure you"
+  },
+  {
+   "id": "3538-163624-0024",
+   "ref": "for one day when brynhild and gudrun were bathing brynhild waded farthest out into the river and said she did that to show she was guirun is superior",
+   "hyp": "for one day when brinhold and gudrun were bathing brinhold waited farther south into the river and said she did that to show she was gudrun is superior"
+  },
+  {
+   "id": "2414-159411-0018",
+   "ref": "after this they saw an alligator and the brahman related the matter to him hoping for a more favorable verdict",
+   "hyp": "after this this saw an alligator and the brahmin related the matter to him hoping for a more favorable verdict"
+  },
+  {
+   "id": "3764-168670-0000",
+   "ref": "the strides of a lame man are like the ogling glances of a one eyed man they do not reach their goal very promptly",
+   "hyp": "the strides of a lame man unlike the ogling glances of a one eyed man they do not reach their goal very promptly"
+  },
+  {
+   "id": "3005-163399-0029",
+   "ref": "being tom sawyer was easy and comfortable and it stayed easy and comfortable till by and by i hear a steamboat coughing along down the river",
+   "hyp": "being tom sawyer was easy and comfortable and it stayed easy and comfortable till by and by i hear a steamboat coughing along down the river"
+  },
+  {
+   "id": "3764-168671-0040",
+   "ref": "the good god consulted his note book which shows when the time is up it was father mestienne is turn father mestienne died",
+   "hyp": "the good god consulted hidden notebook which shows when the time is up it was father mestian is turn father mestian died"
+  },
+  {
+   "id": "1998-15444-0002",
+   "ref": "he should notice the position and temperature of the body the condition of rigor mortis marks of violence appearance of lips and mouth",
+   "hyp": "he should notice the position and temperature of the body the condition of rigamortis marks of violence appearance of lips and mouth"
+  },
+  {
+   "id": "6432-63722-0025",
+   "ref": "he found the place without a light in it stumbled over something on the floor and there was ali is body with the head busted in and this heavy candlestick near it",
+   "hyp": "he found the place without a light in it stumbled over something on the floor and there was ali is body with the head busted in and this heavy candlestick near it"
+  },
+  {
+   "id": "3080-5032-0022",
+   "ref": "i know not how my brother comes to be so well informed as you say but i am certain he knows the utmost of the injuries you have received from her",
+   "hyp": "i know not how my brother comes to be so well informed as you say but i am certain he knows utmost of the injuries you have received from her"
+  },
+  {
+   "id": "8131-117016-0012",
+   "ref": "the 1st man making a shakedown will get the same treatment we are going to use on the stonewall boys you will get double pay here and you can live on it",
+   "hyp": "the 1st man making a shakedown will get the same treatment we are going to use on the stone roll boys you will get double pay here and you can live on it"
+  },
+  {
+   "id": "4294-35475-0003",
+   "ref": "in sooth thou shalt have one but it shall be one befitting thy maiden size and courage if so small a weapon can be found in all my kingdom",
+   "hyp": "in sooth thou shalt have one but it shall be one befitting thy maiden size and courage if so small a weapon can be found in all my kingdom"
+  },
+  {
+   "id": "5442-41169-0021",
+   "ref": "we walked about the fields and the garden no said he stepan vassilievitch everything is well looked after but your garden is neglected",
+   "hyp": "we walked about the fields and the garden no said he step on miss livich everything is well looked after but your gardens neglected"
+  },
+  {
+   "id": "2609-156975-0037",
+   "ref": "the peasants of the vast antolian plain in central asia minor still call every life giving spring god hath given",
+   "hyp": "the peasants of the vats intolian plain of central asia minor still call every life given spring god hath given"
+  },
+  {
+   "id": "4350-9170-0048",
+   "ref": "so that the justification of state violence on the ground of the protection it gives us from evil disposed persons even if it had some foundation 3 or 4 centuries ago has none whatever now",
+   "hyp": "so that the justification of stale violence on the ground of the protection it gives us from evil disposed persons even if it had some foundation 3 or 4 centuries ago has none whatever now"
+  },
+  {
+   "id": "5764-299665-0073",
+   "ref": "it follows that nothing has been or can be created that there never has been or can be a creator",
+   "hyp": "it follows that nothing has been or can be created that there never has been or can be a creator"
+  },
+  {
+   "id": "8461-281231-0001",
+   "ref": "it was on their journey to that town that they were overtaken on the road by cedric and his party in whose company they were afterwards carried captive to the castle of torquilstone",
+   "hyp": "it was on the journey to that town that they were overtaken on the road by cedric and his party in whose company they were afterwards carried captive to the castle of torquilstone"
+  },
+  {
+   "id": "2609-156975-0006",
+   "ref": "it seems probable that not all but only part of the tribes which ultimately coalesced into the hebrew nation found their way to egypt",
+   "hyp": "this is improbable that not all but only part of it tribes which ultimately culverts into the hebrew nation found their way to egypt"
+  },
+  {
+   "id": "2414-128291-0005",
+   "ref": "for i tell thee that i have already talked half a morning unto them and just now were they about to give me their answer",
+   "hyp": "for i tell thee that i have already talked half a morning unto them and just now were they about to give me their answer"
+  },
+  {
+   "id": "2609-169640-0004",
+   "ref": "mister marble he i do believe was fairly snoozing on the hen coops being like the sails as one might say barely asleep",
+   "hyp": "mister marble he ought to believe was fairly snoozing on the hench hoops being like the sails as one might say various sleep"
+  },
+  {
+   "id": "4852-28312-0014",
+   "ref": "what he saw was a fresh cheeked lad tall for 13 sturdy with sincerity and good humor in his face and something sensitive and appealing about his eyes",
+   "hyp": "what he saw was a fresh cheeked lad tall for 13 sturdy with sincerity and good humor in his face and something sensitive and appealing about his eyes"
+  },
+  {
+   "id": "4198-12259-0032",
+   "ref": "let us wind our horns by the sound of flagons and bottles and cry aloud that whoever hath lost his thirst come not hither to seek it",
+   "hyp": "let us wind our horns by the sound of flag guns and bottles and cry aloud that whoever hath lost his thirst come not hither to seek it"
+  },
+  {
+   "id": "4294-14317-0001",
+   "ref": "when i saw that this bust came out sharp and clean i set at once to construct a little furnace in the workshop erected for me by the duke after my own plans and design in the house which the duke had given me",
+   "hyp": "when i saw the this bust came out sharp and clean i said at once to construct a little furnace in the workshop erected for me by the duke after my own plans and design in the house which the duke had given me"
+  },
+  {
+   "id": "7902-96592-0028",
+   "ref": "a happy inspiration had come and placing one hand upon his breast he thrust in the other gave a tug and drew out his little curved dirk glanced at the edge ran to the window and began to cut at one of the bars labor in vain",
+   "hyp": "a happy inspiration had come and placing one hand upon his chest he thrust in the other gave a tug and drew out his little curved dirk glanced at the edge ran to the window and began to cut at one of the bars labor in vain"
+  },
+  {
+   "id": "8461-281231-0019",
+   "ref": "but in other parts the besiegers pursued the defenders of the castle from chamber to chamber and satiated in their blood the vengeance which had long animated them against the soldiers of the tyrant front de boeuf",
+   "hyp": "but in other parts the besiegers pursued the defenders of the castle from chamber to chamber and satiated in the blood the vengeance which had long animated them against the soldiers of the tyrant from the birth"
+  },
+  {
+   "id": "3331-159605-0016",
+   "ref": "when saturday came polly started as usual for a visit to becky and bess but could not resist stopping at the shaws to leave a little parcel for fan though it was calling time",
+   "hyp": "when set at day came polly started as usual for a visit to becky and beth but could not resist stopping at the chores to leave a little parcel for fern dot was calling time"
+  },
+  {
+   "id": "3331-159605-0024",
+   "ref": "but i know her better and i assure you that she does improve she tries to mend her faults though she will not own it and will surprise you some day by the amount of heart and sense and goodness she has got",
+   "hyp": "but i know her better and i assure you that she does improve she tries to mend her faults though she will not own it and will surprise you some day by the amount of heart and sense and goodness she has got"
+  },
+  {
+   "id": "3080-5040-0032",
+   "ref": "in my life i never heard so ridiculous a discourse as he made us and no old woman who passes for a witch could have been more puzzled to seek what to say to reasonable people than he was",
+   "hyp": "in my life i never heard so ridiculous a discourse as he made us and no old woman who passes for a witch could have been more puzzled to seek what to say to reason what people than he was"
+  },
+  {
+   "id": "8461-281231-0018",
+   "ref": "raising the wounded man with ease the black knight rushed with him to the postern gate and having there delivered his burden to the care of 2 yeomen he again entered the castle to assist in the rescue of the other prisoners",
+   "hyp": "raising the wound at man with ease the black knight rushed with him to the post and gate and having there delivered his burden to the care of 2 yeomen he again entered the castle to assist in the rescue of other prisoners"
+  },
+  {
+   "id": "3080-5040-0019",
+   "ref": "i see you can chide when you please and with authority but i deserve it i confess and all i can say for myself is that my fault proceeded from a very good principle in me",
+   "hyp": "i see you can chid when you please and with authority but i deserve it i confess and all i can say for myself is that my fault proceeded from a very good principle in me"
+  },
+  {
+   "id": "3080-5040-0025",
+   "ref": "they laugh to hear me say that one unkind word would destroy all the satisfaction of my life and that i should expect our kindness should increase every day if it were possible but never lessen",
+   "hyp": "they laugh to hear me say that one unkind word destroy all the satisfaction of my life and that i should expect our kindness should increase every day if it were possible but never lessen"
+  },
+  {
+   "id": "7105-2330-0041",
+   "ref": "the local trade unionists took offense at the fact of cabinet ministers having personally acted as strike breakers and even the release of platterbaff failed to pacify them",
+   "hyp": "the local trade unionists took offense at the fact of cabinet ministers having personally acted as strike breakers and even the release of platterbath failed to pacify them"
+  },
+  {
+   "id": "2609-156975-0036",
+   "ref": "the wilderness with its lurking foes and the ever present dread of hunger and thirst deepened his sense of need and of dependence upon a power able to guide the destinies of men",
+   "hyp": "the wilderness with its low infills and the ever present dread of hunger and thirst deepens the sense of need and of dependence upon the power able to guide the debts needs and men"
+  },
+  {
+   "id": "3764-168670-0028",
+   "ref": "it is a chamber on the ground floor which has a grated window opening on the garden which is closed on the outside by a shutter and 2 doors one leads into the convent the other into the church what church",
+   "hyp": "it is a chamber on the ground floor which has a grated window opening on the garden which is closed on the outside by a shutter and 2 doors one leads into the convent the other into the church a what church"
+  },
+  {
+   "id": "8280-266249-0015",
+   "ref": "one drop of nicotine extract of tobacco placed on the tongue of a dog will kill him in a minute the 100th part of a grain picked under the skin of a man is arm will produce nausea and fainting",
+   "hyp": "one drop of nicotine extract the tobacco placed on the tongue of the dog will kill him in a minute the 100th part of the grain pricked under the skin of a man is arm will produce nausea and fainting"
+  },
+  {
+   "id": "2033-164915-0007",
+   "ref": "she said it hath reached me 0 auspicious king that when the stoker girthed his ass for flight and bespake himself saying 0 would i knew what is become of him",
+   "hyp": "she said it hath reached me 0 auspicious king that when the stalker girded his ass for flight and bestake himself saying 0 would i knew what is become of him"
+  },
+  {
+   "id": "6432-63722-0004",
+   "ref": "and having put himself in a fair way as he hoped to solve some of the problems connected with the darcy case colonel ashley went down to police headquarters to learn more facts in connection with the murder of the east indian",
+   "hyp": "and having put himself in a fair way as he would hoped to solve some of the problems connected with the darcy case colonel ashley went down to police headquarters to learn more facts in the connection with the murder of the east indian"
+  },
+  {
+   "id": "4198-61336-0024",
+   "ref": "for thus saith the lord unto the house of israel seek ye me and ye shall live have ye offered unto me sacrifices and offerings in the wilderness 40 years 0 house of israel",
+   "hyp": "for less say it the lord unto the house of israel seek ye me and ye shalt live have ye offered unto me sacrifices and offerings in the wilderness 40 years 0 house of israel"
+  },
+  {
+   "id": "3764-168671-0000",
+   "ref": "on the following day as the sun was declining the very rare passers by on the boulevard du maine pulled off their hats to an old fashioned hearse ornamented with skulls cross bones and tears",
+   "hyp": "on the following day as the sun was declining the very rare passes by on the boulevard du main pulled off their hats to an old fashioned hearse ornamented with skulls crossbones and tears"
+  },
+  {
+   "id": "4350-9170-0057",
+   "ref": "even looking at it practically weighing that is to say all the burdens laid on him by the state no man can fail to see that for him personally to comply with state demands and serve in the army would in the majority of cases be more disadvantageous than to refuse to do so",
+   "hyp": "even looking at it practically weighing that is to say all the burdens laid on him by the state no man can fail to see it for him personally to comply with the state demands and serve in the army would in the majority of cases be more disadvantageous than to refuse to do so"
+  },
+  {
+   "id": "6128-63244-0022",
+   "ref": "it was not clear to this interesting girl in what manner such a sacrifice as this last would be required of her but she saw the matter through a kind of sunrise mist of emotion which made danger as rosy as success",
+   "hyp": "it was not clear to this interesting girl in what manner such a sacrifice of this last would be required of her that she sold a mattress through a kind of sunlit mist of amation which made danger as rosy is success"
+  },
+  {
+   "id": "3005-163391-0011",
+   "ref": "you see he was pretty old and george is g yirls was too young to be much company for him except mary jane the red headed one and so he was kinder lonesome after george and his wife died and did not seem to care much to live",
+   "hyp": "you see he was pretty old and george is girls was too young to be much company for him except mary jane the red headed one and so he was kind or lonesome after george and his wife died and did not seem to care much to live"
+  },
+  {
+   "id": "3331-159605-0015",
+   "ref": "this finished polly is indecision and after that night she never allowed herself to dwell upon the pleasant temptation which came in a guise particularly attractive to a young girl with a spice of the old eve in her composition",
+   "hyp": "this finished polly is indecision and after that night she never allowed herself to dwell upon the pleasant temptation which came in a guise particularly attractive to a young girl with the spies of the old eve in her composition"
+  },
+  {
+   "id": "4198-12281-0015",
+   "ref": "in the meantime friar john with his formidable baton of the cross got to the breach which the enemies had made and there stood to snatch up those that endeavored to escape",
+   "hyp": "in the meantime fire john with his form available baton of the cross got to the breach which the enemies had made and there stood to snatch up those that endeavored to escape"
+  },
+  {
+   "id": "3005-163390-0015",
+   "ref": "and look at charles 2nd and louis 14 and louis 15 and james 2nd and edward 2nd and richard 3rd and 40 more besides all them saxon heptarchies that used to rip around so in old times and raise cain",
+   "hyp": "and look at charles 2nd and louis 14 and louis 15 and james 2nd and edward 2nd and richard 3rd and 40 more besides all them sacks and hetharkies that used to rip around so in old times and raised cain"
+  },
+  {
+   "id": "533-131564-0001",
+   "ref": "mister and missus hattersley have been staying at the grove a fortnight and as mister hargrave is still absent and the weather was remarkably fine i never passed a day without seeing my 2 friends milicent and esther either there or here",
+   "hyp": "misson missus hatterley have been saying it to grow up a fortnight and as missus hargreave is still absent and the weather was remarkably fine i never passed a day without seeing my 2 friends milleson and esther either there or here"
+  },
+  {
+   "id": "4198-12259-0008",
+   "ref": "if i drink not i am a ground dry graveled and spent i am stark dead without drink and my soul ready to fly into some marsh amongst frogs the soul never dwells in a dry place drouth kills it",
+   "hyp": "if i drink not i am a ground dry graveled and spent i am stark dead without drink and my soul ready to fly into some marsh amongst frogs the soul never dwells in a dry place drought kill it thee"
+  },
+  {
+   "id": "2033-164914-0006",
+   "ref": "what ails thee then that thou must needs recite verses seeing that we are tired out with walking and watching and all the folk are asleep for they require sleep to rest them of their fatigue",
+   "hyp": "what else did then that thou must needs to recite verses seeing that we are tired out with walking and watching and all the folk are as leaped for they require sleep to rest them of their fatigue"
+  },
+  {
+   "id": "7105-2330-0003",
+   "ref": "of course any sentence which the law might feel compelled to inflict would be followed by an immediate pardon but it was highly desirable from the government is point of view that the necessity for such an exercise of clemency should not arise",
+   "hyp": "of course any sentence which the law might feel compelled to inflict would be followed by an immediate pardon but it was highly desirable from the government is point of view that the necessity for such an exercise of clemency should not arise"
+  },
+  {
+   "id": "7018-75789-0008",
+   "ref": "0 my brother answered he we are husbandmen and tillers of the soil who came out to water our fields and plantations and finding thee asleep on this raft laid hold of it and made it fast by us against thou shouldst awake at thy leisure",
+   "hyp": "0 my brother answered he we are husbandmen and tillers of the soil who came out to water our fields and plantations and finding thee asleep on this raft laid hold of it and made it fast by us against thou should us awake at thy leisure"
+  },
+  {
+   "id": "5442-32873-0018",
+   "ref": "luke stuck on his greasy wideawake and in a few minutes more the dog cart was trundled out into the lane and the horse harnessed went between the shafts with that wonderful cheerfulness with which they bear to be called up under startling circumstances at unseasonable hours",
+   "hyp": "luke stockholm of greasy wide oaks and in a few minutes more the dog cart was trundled out into the lane and the horse harnessed went between the shafts with that wonderful cheerfulness with which they bear to be called up on the startling circumstances that unseasonable hours"
+  },
+  {
+   "id": "2609-156975-0004",
+   "ref": "every one who is turbulent has been found by king merneptah the testimony of the oldest biblical narratives regarding the sojourn of the hebrews in egypt is also in perfect accord with the picture which the contemporary egyptian inscriptions give of the period",
+   "hyp": "everyone who is turbulent has been found by gimmernath path the testimony of the oldest biblical narratives regarding the sojourn of the hebrews in the egypt is also in perfect accord with the picture with the contemporary egyptians scriptures give the period"
+  },
+  {
+   "id": "8461-281231-0024",
+   "ref": "he left the gallant band of foresters sorrowing deeply for his lost friend the lord of coningsburgh and he and his followers had scarce departed when a procession moved slowly from under the greenwood branches in the direction which he had taken in the center of which was the car in which the body of athelstane was laid",
+   "hyp": "he left the gallant band of foresters sorrowing deeply for his lost friend the lord of coningsburg and he and his followers had scarce departed when a procession moved slowly from under the greenwood branches in the direction which he had taken in the center of which was the car in which the body of adelstain was laid"
+  },
+  {
+   "id": "3080-5040-0007",
+   "ref": "yet in earnest your father will not find my brother peyton wanting in civility though he is not a man of much compliment unless it be in his letters to me nor an unreasonable person in anything so he will allow him out of his kindness to his wife to set a higher value upon her sister than she deserves",
+   "hyp": "yet in honor your father will not find my brother peyton wanting in civility for he is not a man of much compliment unless it be in his letters to me nor an unreasonable person in anything so he will allow him out of his kindness to his wife to set a higher value upon her sister than she deserves"
+  },
+  {
+   "id": "7105-2340-0005",
+   "ref": "a wilfrid pigeoncote had covered himself with honors in the course of marlborough is campaigns and the name wilfrid had been a baptismal weakness in the family ever since the new heir to the family dignity and estates was a young man of about 5 and 20 who was known more by reputation than by person to a wide circle of cousins and kinsfolk",
+   "hyp": "our wilfred pigeon court had covered himself with honors in the course of marlborough is campaigns and the name wilfred had been about his small weakness in the family ever since the new heir to the family dignity and estates was a young man of about 5 and 20 who was known more by reputation than by person to a wide circle of cousins and kin folk"
+  },
+  {
+   "id": "7018-75789-0011",
+   "ref": "she said it hath reached me 0 auspicious king that sindbad the seaman continued when i landed and found myself amongst the indians and abyssinians and had taken some rest they consulted among themselves and said to one another there is no help for it but we carry him with us and present him to our king that he may acquaint him with his adventures",
+   "hyp": "she said it had reached me a auspicious king that sindbad the seaman continued when i landed and found myself amongst the indians and abyssinians and had taken some rest they consulted among themselves and said to one another there is no help for it but we carry him with us and present him to our king that he may acquaint him with his adventures"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "tag": "p5c",
+ "quant": "int4hqq",
+ "graph": true,
+ "capacity": 4,
+ "streams": [
+  {
+   "audio": "longform-test-clean-3m-s5.wav",
+   "start_tick": 0,
+   "wer_shared": 2.778,
+   "wer_alone": 2.778,
+   "text_identical": true,
+   "token_ids_identical": true,
+   "words_differ": 0
+  },
+  {
+   "audio": "longform-test-clean-3m-s6.wav",
+   "start_tick": 90,
+   "wer_shared": 5.467,
+   "wer_alone": 5.467,
+   "text_identical": true,
+   "token_ids_identical": true,
+   "words_differ": 0
+  },
+  {
+   "audio": "longform-test-clean-3m-s7.wav",
+   "start_tick": 200,
+   "wer_shared": 3.527,
+   "wer_alone": 3.527,
+   "text_identical": true,
+   "token_ids_identical": true,
+   "words_differ": 0
+  },
+  {
+   "audio": "longform-test-clean-3m-s8.wav",
+   "start_tick": 350,
+   "wer_shared": 6.438,
+   "wer_alone": 6.438,
+   "text_identical": true,
+   "token_ids_identical": true,
+   "words_differ": 0
+  }
+ ],
+ "tick_ms_by_active_streams": {
+  "1": {
+   "ticks": 247,
+   "p50": 15.91,
+   "max": 17.91
+  },
+  "2": {
+   "ticks": 159,
+   "p50": 15.91,
+   "max": 16.74
+  },
+  "3": {
+   "ticks": 272,
+   "p50": 15.91,
+   "max": 17.71
+  },
+  "4": {
+   "ticks": 1939,
+   "p50": 15.91,
+   "max": 17.86
+  }
+ },
+ "ticks_over_80ms": 0,
+ "trims": 51,
+ "peak_alloc_gib": 4.11
+}

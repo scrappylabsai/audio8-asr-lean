@@ -1,0 +1,23 @@
+{
+ "tag": "lean-int4hqq",
+ "audio": "longform-test-clean-1m-s2.wav",
+ "duration_s": 60.02,
+ "paced": true,
+ "wer_pct": 0.61,
+ "received_done": true,
+ "error": null,
+ "send_s": 60.892,
+ "wall_s": 61.283,
+ "done_after_audio_end_s": 0.391,
+ "max_gap_between_deltas_s": 0.25,
+ "step_ms_p50": 15.12,
+ "step_ms_p95": 15.53,
+ "step_ms_p99": 127.79,
+ "step_ms_max": 161.28,
+ "steps_over_80ms": 12,
+ "steps": 760,
+ "delta_chars_per_min": {
+  "0": 877,
+  "1": 12
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "tag": "m7",
+ "graph": true,
+ "compile": "",
+ "quant": "int4hqq",
+ "corpus": "LibriSpeech",
+ "split": "test-clean",
+ "n": 20,
+ "pool": 2609,
+ "seed": 0,
+ "batch": 1,
+ "wer_pct": 3.675,
+ "ms_per_step": 11.724,
+ "prefill_ms_avg": 33.1,
+ "audio_s": 140.7,
+ "rtf_total": 0.1673,
+ "capture_s": 0.5,
+ "weights_gib": 2.75,
+ "peak_alloc_gib": 3.07,
+ "torch": "2.14.0+cu130",
+ "utts": [
+  {
+   "id": "5142-33396-0061",
+   "ref": "your mother the queen was standing by",
+   "hyp": "your mother the queen was standing by"
+  },
+  {
+   "id": "4507-16021-0041",
+   "ref": "it is unintelligible in the dark",
+   "hyp": "it is unintelligible in the dark"
+  },
+  {
+   "id": "908-157963-0003",
+   "ref": "why fade these children of the spring",
+   "hyp": "why fave these children of the spring"
+  },
+  {
+   "id": "7729-102255-0000",
+   "ref": "the bogus legislature numbered 36 members",
+   "hyp": "the bogus legislature numbered 36 members"
+  },
+  {
+   "id": "5142-33396-0020",
+   "ref": "a house smells of smoke a ship smells of frolic",
+   "hyp": "a house smells of smoke a ship smells of frolic"
+  },
+  {
+   "id": "1580-141083-0053",
+   "ref": "you have not seen any of them no sir",
+   "hyp": "you have not seen any of them no sir"
+  },
+  {
+   "id": "5142-33396-0036",
+   "ref": "so i will give out this law that my men shall never leave you alone",
+   "hyp": "so i will give out this law that my men shall never leave you alone"
+  },
+  {
+   "id": "237-126133-0021",
+   "ref": "she asked impulsively i did not believe you could persuade her father",
+   "hyp": "she asked impulsively i did not believe you could persuade her father"
+  },
+  {
+   "id": "4446-2275-0001",
+   "ref": "she blushed and smiled and fumbled his card in her confusion before she ran upstairs",
+   "hyp": "she blushed and smiled and fumbled his card in her confusion before she ran upstairs"
+  },
+  {
+   "id": "5142-33396-0022",
+   "ref": "what of the farm olaf not yet i answered viking is better for summer",
+   "hyp": "what of the farm olaf not yet i answered viking is better for summer"
+  },
+  {
+   "id": "61-70968-0057",
+   "ref": "these escapades are not for old gamewell lad his day has come to twilight",
+   "hyp": "these escapades are not for old gamewell lad his day has come to twilight"
+  },
+  {
+   "id": "7127-75947-0015",
+   "ref": "there cannot be a doubt he received you kindly for in fact you returned without his permission",
+   "hyp": "there cannot be a doubt he received you kindly for in fact you returned without his permission"
+  },
+  {
+   "id": "4992-23283-0000",
+   "ref": "but the more forgetfulness had then prevailed the more powerful was the force of remembrance when she awoke",
+   "hyp": "but the more forgetfulness had then prevailed the more powerful was the force of remembrance when she awoke"
+  },
+  {
+   "id": "7176-92135-0020",
+   "ref": "9923 elsinore 99 yes hallo is that you horatio hamlet speaking",
+   "hyp": "9923 els noir double not yes hello is that you horatio hamlet is speaking"
+  },
+  {
+   "id": "2300-131720-0037",
+   "ref": "he weighed and reweighed the meter plates and pursued every line of investigation imaginable but all in vain",
+   "hyp": "he weighed and reweighed the meter plates and pursued every line of investigation imaginable but all in vain"
+  },
+  {
+   "id": "8555-284447-0001",
+   "ref": "hold him fast my men and as soon as i have had my coffee and oatmeal i will take him to the room of the great knife and patch him",
+   "hyp": "hold him fast my men and as soon as i have had my coffee and oatmeal i will take him to the room of the great knife and patch him"
+  },
+  {
+   "id": "8463-294825-0006",
+   "ref": "his specifications for an open sea submarine and a self contained diving suit were decades before their time yet modern technology bears them out triumphantly",
+   "hyp": "his specifications for an open sea submarine and a self contained diving suit were decades before their time yet modern technology varies them out triumphantly"
+  },
+  {
+   "id": "5105-28233-0009",
+   "ref": "the bond of union thus effected could never be severed and although ben zoof is achievements had fairly earned him the right of retirement he firmly declined all honors or any pension that might part him from his superior officer",
+   "hyp": "the bond of union thus effected could never be severed and although ben zuf is achievements had fairly earned him the right of retirement he firmly declined all honors or any pension that might part him from his superior officer"
+  },
+  {
+   "id": "7176-92135-0012",
+   "ref": "indeed irresolution being the keynote of hamlet is soliloquy a clever player could to some extent indicate the whole 30 lines by a silent working of the jaw but at the same time it would be idle to deny that he would miss the finer shades of the dramatist is meaning",
+   "hyp": "indeed irresolution meaning the keynote of hamlet is soliloquy a clever player could to some extent indicate the whole 30 lines by a silent working of the jaw but at the same time it would be idle to deny that he would miss the finer shades of the dramatist is meaning"
+  },
+  {
+   "id": "7729-102255-0046",
+   "ref": "in the early morning of the next day may 20 ninth a company of dragoons with one empty saddle came down from the fort and while the pro slavery men still slept the prisoner and his escort were on their way across the prairies to lecompton in the charge of officers of the united states army",
+   "hyp": "in the early morning of the next day may 29 a company of dragoons with one empty saddle came down from the fort and while the pro slavery men still slept the prisoner and his escort were on their way across the prairies to la compton in the charge of officers of the united states army"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "tag": "vllm-upstream-unpaced",
+ "audio": "longform-test-clean-10m-s4.wav",
+ "duration_s": 606.755,
+ "paced": false,
+ "wer_pct": 2.83,
+ "received_done": true,
+ "error": null,
+ "send_s": 0.638,
+ "wall_s": 221.369,
+ "done_after_audio_end_s": 220.73,
+ "max_gap_between_deltas_s": 0.18,
+ "step_ms_p50": 20.29,
+ "step_ms_p95": 20.95,
+ "step_ms_p99": 31.18,
+ "step_ms_max": 75.64,
+ "steps_over_80ms": 0,
+ "steps": 7602,
+ "delta_chars_per_min": {
+  "0": 2266,
+  "1": 2326,
+  "2": 2395,
+  "3": 1530
+ }
+}

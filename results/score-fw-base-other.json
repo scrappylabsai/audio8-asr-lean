@@ -1,0 +1,10 @@
+{
+ "model": "faster-whisper base.en float16 greedy",
+ "split": "test-other",
+ "n": 300,
+ "seed": 0,
+ "wer_pct": 11.613,
+ "audio8_wer_pct": 6.964,
+ "decode_s": 24.16,
+ "rtf": 0.0129
+}
