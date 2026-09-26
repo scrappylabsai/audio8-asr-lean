@@ -111,4 +111,7 @@ split, Whisper English normalizer, corpus WER.
 
 ## License
 
-Apache-2.0. This builds on Audio8 ASR Infinite by Edge0 (Apache-2.0); see `NOTICE`.
+Apache-2.0 for the code in this repository. This builds on Audio8 ASR Infinite by Edge0 (Apache-2.0); see `NOTICE`.
+No model weights are included. The model's decoder is initialised from Qwen2.5-3B-Instruct, which is under the
+Qwen Research License (non-commercial), so check the weights' terms before commercial use
+([Edge0-AI/Audio8-ASR-Infinite#2](https://github.com/Edge0-AI/Audio8-ASR-Infinite/issues/2)).

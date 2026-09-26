@@ -6,4 +6,8 @@ https://huggingface.co/Edge0/Audio8-ASR-Infinite), licensed under the Apache Lic
 the audio feature extractor, the projector, the reference streaming decoder and the realtime client used by the
 benchmarks come from that project and are imported, not copied, except where noted in the source.
 
+This repository contains no model weights. Audio8 ASR Infinite's decoder is initialised from
+Qwen2.5-3B-Instruct, which is licensed under the Qwen Research License Agreement (non-commercial). Check the
+weights' terms before any commercial use; see https://github.com/Edge0-AI/Audio8-ASR-Infinite/issues/2.
+
 Benchmark audio: LibriSpeech (Panayotov et al., openslr.org/12), CC BY 4.0.
